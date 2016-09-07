@@ -1,0 +1,7 @@
+App load time: 3408ms
+App load time: 1799ms
+1473212481086	addons.xpi	WARN	Bootstrap state is invalid (missing add-ons: /home/cristhian/.mozilla/firefox/f3vy1mye.default/extensions/firefox-hotfix@mozilla.org.xpi)
+1473213084077	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1473213084265	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+1473213085480	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Unix error 2 during operation DirectoryIterator.prototype.next on file /home/cristhian/.mozilla/firefox/f3vy1mye.default/features (No existe el archivo o el directorio) ((unknown module)) No traceback available
+ERROR 2016-09-06 20:03:53 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.

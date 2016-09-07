@@ -1,0 +1,52 @@
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): LIBDBUSMENU-GTK-WARNING **: The child-display variable is set to '(null)' but there's a menu, odd?
+
+(unity-panel-service:1612): LIBDBUSMENU-GTK-WARNING **: The child-display variable is set to '(null)' but there's a menu, odd?
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: window_menu_model_new: assertion 'BAMF_IS_APPLICATION(app)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: track_menus: assertion 'IS_WINDOW_MENU(menus)' failed
+
+(unity-panel-service:1612): LIBDBUSMENU-GTK-WARNING **: The child-display variable is set to '(null)' but there's a menu, odd?
+
+(unity-panel-service:1612): LIBDBUSMENU-GTK-WARNING **: The child-display variable is set to '(null)' but there's a menu, odd?
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'IS_WINDOW_MENU(wm)' failed
+
+(unity-panel-service:1612): Indicator-Appmenu-WARNING **: Already have a menu for window ID 75497695 with path /com/canonical/menu/48000DF from :1.97, unregistering that one

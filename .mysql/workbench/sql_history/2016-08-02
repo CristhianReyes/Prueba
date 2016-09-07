@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='20:48:08'>CREATE SCHEMA `URLS` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci</ENTRY>
+<ENTRY timestamp='20:57:05'>CREATE TABLE `URLS`.`new_table` (&#x0A;  `url` VARCHAR(45) NOT NULL,&#x0A;  `descripcion` VARCHAR(45) NULL,&#x0A;  PRIMARY KEY (`url`),&#x0A;  UNIQUE INDEX `url_UNIQUE` (`url` ASC))</ENTRY>
+<ENTRY timestamp='20:59:04'>CREATE TABLE `URLS`.`url` (&#x0A;  `url` INT NOT NULL,&#x0A;  `descripcion` VARCHAR(45) NULL,&#x0A;  PRIMARY KEY (`url`),&#x0A;  UNIQUE INDEX `url_UNIQUE` (`url` ASC))</ENTRY>

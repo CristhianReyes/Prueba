@@ -1,0 +1,53 @@
+19:26:07 [INF][      WBContext]: Parsing application arguments.
+19:26:07 [INF][      WBContext]:     /usr/bin/mysql-workbench-bin
+19:26:08 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /usr/share/mysql-workbench
+	plugin path: /usr/lib/mysql-workbench/plugins
+	struct path: /usr/share/mysql-workbench/grt
+	module path: /usr/lib/mysql-workbench/modules
+	library path: /usr/share/mysql-workbench/libraries
+	user data dir: /home/cristhian/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+19:26:08 [INF][      WBContext]: WbContext::init
+19:26:16 [INF][            WBA]: Looking for extension modules for WBA...
+19:26:16 [INF][            WBA]: 0 extension modules found
+19:26:16 [WRN][            grt]: /usr/share/mysql-workbench/data/table_templates.xml:21: link 'com.mysql.rdbms.mysql.datatype.timestamp' <object db.SimpleDatatype> key=simpleType could not be resolved
+19:26:16 [WRN][            grt]: /usr/share/mysql-workbench/data/table_templates.xml:106: link 'com.mysql.rdbms.mysql.datatype.varchar' <object db.SimpleDatatype> key=simpleType could not be resolved
+19:26:16 [WRN][            grt]: /usr/share/mysql-workbench/data/table_templates.xml:229: link 'com.mysql.rdbms.mysql.datatype.int' <object db.SimpleDatatype> key=simpleType could not be resolved
+19:26:19 [WRN][            grt]: Error while loading '/home/cristhian/.mysql/workbench/wb_state.xml': The file is not a valid MySQL Workbench state file.
+The file will skipped and the application starts in its default state.	
+19:26:20 [WRN][            grt]: Error while loading '/home/cristhian/.mysql/workbench/user_starters.xml': The file is not a valid MySQL Workbench starters file.
+The file will skipped and starters are reset to their initial set.	
+19:26:22 [WRN][            grt]: Error while loading '/home/cristhian/.mysql/workbench/starters_settings.xml': The file is not a valid MySQL Workbench starters file.
+The file will skipped and starters are reset to their initial set.	
+19:26:26 [ERR][            grt]: Error while loading '/home/cristhian/.mysql/workbench/wb_options.xml': The file is not a valid MySQL Workbench options file.
+The file will skipped and settings are reset to their default values.	
+19:26:26 [WRN][            grt]: /home/cristhian/.mysql/workbench/server_instances.xml:5: link '63c5086f-5922-11e6-82a3-08002793bb89' <object db.mgmt.Connection> key=connection could not be resolved
+19:26:26 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 6.3.7 CE build 1199 (64 bit)
+	Configuration Directory: /home/cristhian/.mysql/workbench
+	Data Directory: /usr/share/mysql-workbench
+	Cairo Version: 1.14.6
+	OS: Linux 4.4.0-21-generic
+	CPU: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz (1995.383MHz) - 1.95GiB RAM
+	Distribution: Ubuntu 16.04 LTS
+
+	Fips mode enabled: no
+
+19:26:29 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+19:26:29 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+19:26:31 [INF][      SqlEditor]: Opened connection 'Local instance 3306' to (Ubuntu) version 5.7.13-0ubuntu0.16.04.2
+19:26:31 [INF][     AutoCCache]: Initializing autocompletion cache for Local_instance_3306
+19:26:33 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:26:43 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:26:43 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:26:43 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:29:58 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:31:56 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed
+19:31:57 [ERR][               ]: murrine_style_draw_box_gap: assertion 'height >= -1' failed

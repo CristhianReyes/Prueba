@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+            <title>Unlimited Free VPN by betternet :: Complementos para Firefox</title>
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="https://addons.cdn.mozilla.net/static/img/favicon.ico">
+
+    
+        <link title="Firefox complementos"
+          rel="search" type="application/opensearchdescription+xml"
+          href="/es/firefox/opensearch.xml" />
+
+          <link href="https://addons.cdn.mozilla.net/static/css/tabzilla/tabzilla.css" rel="stylesheet" />
+              <link rel="stylesheet" media="all" href="https://addons.cdn.mozilla.net/static/css/zamboni/impala-min.css?build=393cdff" />
+      <link rel="stylesheet" media="all" href="https://addons.cdn.mozilla.net/static/css/restyle/css-min.css?build=d908ded" />
+      <!--[if lt IE 9]>
+        <script src="https://addons.cdn.mozilla.net/static/js/lib/iepp.min.js?b=a4642b0-57aa1f79"></script>
+      <![endif]-->
+      <!--[if lte IE 9]>
+        <link rel="stylesheet" href="https://addons.cdn.mozilla.net/static/css/legacy/ie9.css?b=a4642b0-57aa1f79">
+      <![endif]-->
+    
+        <meta property="og:title" content="Unlimited Free VPN by betternet">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://addons.cdn.mozilla.net/user-media/addon_icons/562/562370-64.png?modified=1459580882">
+  <meta property="og:url" content="https://addons.mozilla.org/es/firefox/addon/unlimited-free-vpn-betternet/">
+  <meta property="og:description" content="betternet is the easiest way to connect to the web without censor or restrictions. An unlimited FREE VPN with no ads, no registration, no b******t; we just protect your privacy and identity. That’s it!">
+    <noscript><link rel="stylesheet" href="https://addons.cdn.mozilla.net/static/css/impala/nojs.css?b=a4642b0-57aa1f79"></noscript>
+
+    
+    
+    <script src="https://addons.cdn.mozilla.net/static/js/preload-min.js?build=a4642b0-57aa1f79"></script>
+  </head>
+  <body class="html-ltr firefox moz-header-slim gutter addon-details  is-impala restyle"
+        data-app="firefox"
+        data-appname="Firefox"
+        data-appid="1"
+        data-min-beta-version="3.7"
+        data-nightly-version="48.0"
+        data-anonymous="true"
+        data-readonly="false"
+        data-media-url="https://addons.cdn.mozilla.net/user-media/"
+        data-static-url="https://addons.cdn.mozilla.net/static/"
+        data-raven-dsn="https://8c1c5936578948a9a0614cbbafccf049@sentry.prod.mozaws.net/78"
+        data-raven-urls="[&#39;addons.mozilla.org&#39;, &#39;addons.cdn.mozilla.net&#39;]"
+        data-fxa-config="{&#34;state&#34;: &#34;0f05eece2f3d3566ff31e3dc54f5169c9e242e4d1a298cec091434f6d5effff4&#34;, &#34;clientId&#34;: &#34;a4907de5fa9d78fc&#34;, &#34;oauthHost&#34;: &#34;https://oauth.accounts.firefox.com/v1&#34;, &#34;profileHost&#34;: &#34;https://profile.accounts.firefox.com/v1&#34;, &#34;redirectUrl&#34;: &#34;https://addons.mozilla.org/api/v3/accounts/authorize/&#34;, &#34;scope&#34;: &#34;profile&#34;, &#34;contentHost&#34;: &#34;https://accounts.firefox.com&#34;}"
+        >
+
+    <div id="main-wrapper">
+      <div id="page" class="c">
+                  <div class="header-bg">
+            <div class="amo-header-wrapper">
+              <div id="tabzilla">
+    <a href="https://www.mozilla.org/">Mozilla</a>
+</div>              <div class="amo-header">
+                <nav id="aux-nav" role="navigation" class="menu-nav c">
+                  <ul>
+                                            <li class="account anonymous nomenu login legacy">
+    <a href="/es/firefox/users/register?to=%2Fes%2Ffirefox%2Faddon%2Funlimited-free-vpn-betternet%2F">Registrarse</a> o <a href="/es/firefox/users/login?to=%2Fes%2Ffirefox%2Faddon%2Funlimited-free-vpn-betternet%2F">Conectarse</a>  </li>
+
+                                                              <li>
+                        <a href="#" id="other-apps" title="Encuentra complementos para otras aplicaciones">Otras aplicaciones</a>
+                        <ul class="other-apps">
+                                                                                                                                          <li id="app-thunderbird" class="thunderbird">
+                                <a href="/es/thunderbird">Thunderbird</a>
+                              </li>
+                                                                                                                <li id="app-android" class="android">
+                                <a href="/es/android">Firefox para Android</a>
+                              </li>
+                                                                                                                                                                      <li id="app-seamonkey" class="seamonkey">
+                                <a href="/es/seamonkey">SeaMonkey</a>
+                              </li>
+                                                                              </ul>
+                      </li>
+                                      </ul>
+                </nav>
+                <div class="header-search" role="search">
+                                                                                  <form id="search" action="/es/firefox/search/">
+  <input id="search-q" type="text" name="q" autocomplete="off" title=""
+         class="text placeholder"
+         placeholder="buscar complementos"
+         value="">
+        <input id="id_appver" name="appver" type="hidden" />
+    <input id="id_platform" name="platform" type="hidden" />
+    <button class="search-button" type="submit" title="Buscar"
+         src="https://addons.cdn.mozilla.net/static/img/zamboni/global/btn-search.png?b=a4642b0-57aa1f79"></button>
+      <div id="site-search-suggestions"
+         data-cat="all"
+         data-src="/es/firefox/search/suggestions"></div>
+  </form>                                                      </div>
+                <div id="masthead">
+                                    <h1 class="site-title">
+  <a href="/es/firefox/" title="Volver a la página de inicio de Complementos para Firefox">
+    <img alt="" src="https://addons.cdn.mozilla.net/static/img/icons/firefox.png?b=a4642b0-57aa1f79">
+    Complementos
+</a>
+</h1>                  
+
+<nav id="site-nav" class="menu-nav c">
+  <ul>
+      <li id="extensions">
+    <a href="/es/firefox/extensions/">Extensiones</a>
+    <ul class="two-col">
+              <li><em><a href="/es/firefox/extensions/?sort=featured">Destacados</a></em></li>
+              <li><em><a href="/es/firefox/extensions/?sort=users">Más populares</a></em></li>
+              <li><em><a href="/es/firefox/extensions/?sort=rating">Mejor puntuados</a></em></li>
+                  <li><a href="/es/firefox/extensions/download-management/">Administrador de descargas</a></li>
+            <li><a href="/es/firefox/extensions/alerts-updates/">Alertas y actualizaciones</a></li>
+            <li><a href="/es/firefox/extensions/appearance/">Apariencia</a></li>
+            <li><a href="/es/firefox/extensions/language-support/">Ayuda de idioma</a></li>
+            <li><a href="/es/firefox/extensions/feeds-news-blogging/">Canales, noticias y blogs</a></li>
+            <li><a href="/es/firefox/extensions/shopping/">Compras</a></li>
+            <li><a href="/es/firefox/extensions/web-development/">Desarrollo web</a></li>
+            <li><a href="/es/firefox/extensions/photos-music-videos/">Fotos, música y videos</a></li>
+            <li><a href="/es/firefox/extensions/search-tools/">Herramientas de búsqueda</a></li>
+            <li><a href="/es/firefox/extensions/games-entertainment/">Juegos y entretenimiento</a></li>
+            <li><a href="/es/firefox/extensions/bookmarks/">Marcadores</a></li>
+            <li><a href="/es/firefox/extensions/tabs/">Pestañas</a></li>
+            <li><a href="/es/firefox/extensions/privacy-security/">Privacidad y seguridad</a></li>
+            <li><a href="/es/firefox/extensions/social-communication/">Social y comunicación</a></li>
+            <li><a href="/es/firefox/extensions/other/">Otro</a></li>
+          </ul>
+  </li>
+
+    
+        <li id="themes">
+      <a href="/es/firefox/themes/">Temas</a>
+              <ul class="two-col">
+                      <li><em><a href="/es/firefox/themes/?sort=popular">Más populares</a></em></li>
+                      <li><em><a href="/es/firefox/themes/?sort=rating">Mejor puntuados</a></em></li>
+                      <li><em><a href="/es/firefox/themes/?sort=created">Más recientes</a></em></li>
+                                <li><a href="/es/firefox/themes/abstract">Abstracto</a></li>
+                      <li><a href="/es/firefox/themes/causes">Causas</a></li>
+                      <li><a href="/es/firefox/themes/film-and-tv">Cine y tv</a></li>
+                      <li><a href="/es/firefox/themes/sports">Deportes</a></li>
+                      <li><a href="/es/firefox/themes/seasonal">Estaciones</a></li>
+                      <li><a href="/es/firefox/themes/firefox">Firefox</a></li>
+                      <li><a href="/es/firefox/themes/foxkeh">Foxkeh</a></li>
+                      <li><a href="/es/firefox/themes/fashion">Moda</a></li>
+                      <li><a href="/es/firefox/themes/music">Música</a></li>
+                      <li><a href="/es/firefox/themes/nature">Naturaleza</a></li>
+                      <li><a href="/es/firefox/themes/other">Otro</a></li>
+                      <li><a href="/es/firefox/themes/scenery">Paisajes</a></li>
+                      <li><a href="/es/firefox/themes/websites">Páginas web</a></li>
+                      <li><a href="/es/firefox/themes/solid">Sólido</a></li>
+                      <li><a href="/es/firefox/themes/holiday">Vacaciones</a></li>
+                  </ul>
+        <div>
+          <a class="complete-themes" href="/es/firefox/complete-themes/">
+            ¿Quieres personalizarlo más? Prueba <b>todos los temas</b>          </a>
+        </div>
+          </li>
+
+        <li id="collections">
+            <a href="/es/firefox/collections/">Colecciones</a>
+      <ul>
+                  <li><em><a href="/es/firefox/collections/?sort=featured">Destacados</a></em></li>
+                  <li><em><a href="/es/firefox/collections/?sort=users">Con más seguidores</a></em></li>
+                  <li><em><a href="/es/firefox/collections/?sort=created">Más recientes</a></em></li>
+                <hr>
+        <li><a href="/es/firefox/collections/mine/">
+          Colecciones mías</a></li>
+        <li><a href="/es/firefox/collections/following/">
+          Colecciones que sigo</a></li>
+                <li><a href="/es/firefox/collections/mine/favorites">
+          Mis complementos favoritos</a></li>
+      </ul>
+          </li>
+    <li id="more">
+      <a href="#">Más&hellip;</a>
+      <ul>
+                  <li class="more-mobile"><a href="/es/android">
+            Complementos para Mobile</a></li>
+                <li class="more-lang"><a href="/es/firefox/language-tools/">
+          Diccionarios y paquetes de idioma</a></li>
+        <li><a href="/es/firefox/search-tools/">Herramientas de búsqueda</a></li>
+        <li><a href="/es/developers/">Centro de Desarrolladores</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                                  </div>
+                                                                                                      <div class="site-balloon" id="site-nonfx">
+                      <p>
+                        Para probar los miles de complementos que están disponibles aquí, descarga <a href="http://mozilla.org/firefox/?src=amo">Mozilla Firefox</a>, ¡una forma rápida y gratuita de navegar en la Web!                      </p>
+                      <a href="#" class="close">Cerrar</a>
+                    </div>
+                                                      <div class="site-balloon" id="site-welcome">
+                                        <h3>Bienvenido a Complementos Firefox.</h3>
+                    <p>
+                                              Elige de entre miles de funciones y estilos extra para hacer de Firefox tu propio navegador.                                          </p>
+                    <a href="#" class="close">Cerrar</a>
+                  </div>
+                  <div class="site-balloon" id="mobile-banner">
+                    <h3>¿Eres una persona dinámica?</h3>
+                    <p>
+                      Revisa nuestro <a class="mobile-link" href="#">sitio sobre complementos para dispositivos móviles</a>.                    </p>
+                    <a href="#" class="close">Cerrar</a>
+                  </div>
+                                <div itemscope itemtype="http://schema.org/WebApplication">
+  <link itemprop="SoftwareApplicationCategory" href="http://schema.org/OtherApplication" />
+  <aside class="secondary addon-vitals">
+
+        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+      <meta itemprop="price" content="$0" />
+      <meta itemprop="priceCurrency" content="USD" />
+      <link itemprop="availability" href="http://schema.org/InStock" />
+    </span>
+
+    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+      <meta content="2.359" itemprop="ratingValue">
+        <span class="stars large stars-2" title="Puntuado con 2 de 5 estrellas">
+      Puntuado con 2 de 5 estrellas  </span>
+
+
+      <div>
+        <a id="reviews-link" href="/es/firefox/addon/unlimited-free-vpn-betternet/reviews/">
+          <span itemprop="ratingCount">39</span> valoraciones de los usuarios        </a>
+      </div>
+    </div>
+
+                                                    <div id="daily-users">
+                  14.044 usuarios
+                <meta itemprop="interactionCount" content="UserDownloads:337038" />
+      </div>
+    
+    <div class="widgets">
+      
+      <a class="collection-add widget collection"
+  data-listurl="/es/firefox/collections/ajax/list"
+  data-addurl="/es/firefox/collections/ajax/add"
+  data-removeurl="/es/firefox/collections/ajax/remove"
+  data-newurl="/es/firefox/collections/ajax/new"
+  data-addonid="562370"
+  title=""
+  href="#"
+  >
+  Agregar a una colección
+</a>    </div>
+      </aside>
+
+  
+    <section class="primary addon-description-header">
+    <div id="addon" class="island c" role="main" data-id="562370">
+      <hgroup>
+                <img id="addon-icon" itemprop="image" src="https://addons.cdn.mozilla.net/user-media/addon_icons/562/562370-64.png?modified=1459580882" class="icon" alt="Icono de Unlimited Free VPN by betternet">
+        <h1 class="addon" lang="en-us" dir="ltr">
+          <span itemprop="name">Unlimited Free VPN by betternet</span>
+                      <span class="version-number" itemprop="version">2.0.1-signed</span>
+                            </h1>
+        <h4 class="author">por <a href="/es/firefox/user/betternet/" title="betternet">betternet</a></h4>
+      </hgroup>
+      <p id="addon-summary" itemprop="description"  lang="en-us" dir="ltr">betternet is the easiest way to connect to the web without censor or restrictions. An unlimited FREE VPN with no ads, no registration, no b******t; we just protect your privacy and identity. That’s it!</p>
+              <div class="install-wrapper ">
+<div class="install-shell">
+<div class="install lite"
+       data-addon="562370"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/562/562370-32.png?modified=1459580882"
+  data-developers="/es/firefox/addon/unlimited-free-vpn-betternet/developers"
+  data-versions="/es/firefox/addon/562370/versions/"
+  data-name="Unlimited Free VPN by betternet"
+  
+  data-min="32.0"
+  data-max="44.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  caution prominent "
+  data-hash="sha256:f29d03ab27dd25bfee10d4953bbc7aba79750ae49db6a83a29ba9cd8946ca28a"
+      href="https://addons.mozilla.org/firefox/downloads/file/298946/unlimited_free_vpn_by_vit-2.0-fx.xpi?src=dp-btn-primary"
+  >
+      <b></b>
+    <span>
+      Descargar ahora
+          </span>
+  </a>
+      </p>
+</div> 
+      <a class="privacy-policy badge" href="/es/firefox/addon/unlimited-free-vpn-betternet/privacy/">
+      Política de privacidad
+    </a>
+        <a class="eula badge" href="/es/firefox/addon/unlimited-free-vpn-betternet/eula/">
+      Acuerdo de licencia final de usuario
+    </a>
+  
+      <p class="warning">Este complemento ha sido revisado previamente por Mozilla. <a href="/es/faq#preliminary">Más información</a> </p>
+  
+      <div class="d2c-reasons-popup popup">
+      <p>Este complemento no es compatible con tu versión de Firefox por lo siguiente:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Descargar de todas maneras</a>
+</p>
+</div> </div>
+                </div>
+
+    
+
+      </section>
+</div>
+              </div>
+            </div>           </div>         
+                                              <nav id="breadcrumbs">
+  <ol>
+      <li>
+                  <a href="/es/firefox/" class="home" title="Complementos para Firefox">Complementos para Firefox</a>
+              </li>
+      <li>
+                  <a href="/es/firefox/extensions/">Extensiones</a>
+              </li>
+      <li>
+          <span>Unlimited Free VPN by betternet</span>
+        </li>
+    </ol>
+</nav>
+
+
+  
+      <section class="previews">
+      <div class="carousel">
+        <a href="#" class="control prev">&laquo;</a>
+        <a href="#" class="control next">&raquo;</a>
+        <ul id="preview" class="slider"><li class="panel">
+              <a class="screenshot thumbnail" rel="jquery-lightbox"
+                 href="https://addons.cdn.mozilla.net/user-media/previews/full/170/170674.png?modified=1453849494" title="">
+                                <img src="https://addons.cdn.mozilla.net/user-media/previews/thumbs/170/170674.png?modified=1453849494" alt="Captura de pantalla nº 1 del complemento">
+              </a>
+            </li></ul>
+      </div>
+    </section>
+    <div id="lightbox">
+      <section>
+        <div class="content">
+          <a class="close" href="#">Close</a>
+        </div>
+        <div class="controls">
+          <a href="#" class="control next">&raquo;</a>
+          <a href="#" class="control prev">&laquo;</a>
+          <div class="caption"><span></span></div>
+        </div>
+      </section>
+    </div>
+  
+<aside class="secondary metadata c">
+  <ul class="links">
+          <li><a class="home" href="/">
+        Página principal del complemento</a></li>
+              <li><a class="support" href="https://outgoing.prod.mozaws.net/v1/c276a59552a14cc25e7d50ee537be2003609e0a8ab5826a97461c86d9d3cb448/http%3A//betternet.zendesk.com/">Sitio de asistencia</a></li>
+              <li><a href="#">Correo de soporte</a><span class="emaillink js-hidden">oc&#x002E;tenretteb&#x0040;tropp<span class="i">null</span>us</span></li>
+      </ul>
+      <ul>
+      <li>Versión 2.0.1-signed <a class="scrollto" href="#detail-relnotes">Información</a></li>
+      <li>Última actualización: February 15, 2015</li>
+      <li class="source-license">
+                                      Publicado bajo <a href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License, version 2.0</a>                        </li>
+    </ul>
+  </aside>
+
+<section class="primary island c">
+  <h2>Acerca de este complemento</h2>
+  <div class="prose">
+      <div id="addon-description" class="prose"  lang="en-us" dir="ltr">We’re pleased to introduce Unlimited Free VPN by betternet on your Firefox browser!<br>It’s by far the easiest way to connect to the web without censor or restrictions. No ads, no registration, no bullshit; we just protect your privacy and identity. That’s it!<br><br>betternet distinctive features:<br>Totally Free VPN service forever<br>No credit card<br>No Registration or Logging in is needed<br>No log is saved from no user<br>No ad is presented in the app<br>Simple interface just to connect<br>Simply one tap and connect to VPN<br><br>As it’s obvious from its name, it’s a completely unlimited free VPN service for your Firefox browser that can be used to unblock all restricted websites and services such as Facebook, Twitter, Youtube, etc.<br>Therefore it’s a free VPN service, it’s super fast! betternet detects your location automatically and connects you to the nearest server; as a result, your connection will be much faster than other providers.<br>We did our best to make betternet as simple as possible; accordingly, we’ve implemented a very simple user interface which contains just a connect button. All you need to do is to press the connect button and you’re done!<br>If you have any questions and suggestions, feel free and send them to: support@betternet.co or visit our website <a rel="nofollow" href="https://outgoing.prod.mozaws.net/v1/33892f276d0dac923c3d8017b92f8166f9e6a6c95b184b523c77ace209e68108/http%3A//betternet.co">betternet.co</a> for more information. By the way, follow us on twitter: @betternet_co and Facebook: <a rel="nofollow" href="https://outgoing.prod.mozaws.net/v1/6f9bda8fc4aaad2d9e1598094dc7c7b72b69da049944b48cbead4a32164574c7/http%3A//fb.com/betternet.co">http://fb.com/betternet.co</a> to stay tuned.<br>We love to hear from you :-)</div>
+    </div>
+</section>
+
+<div id="more-webpage" class="primary c" data-more-url="/es/firefox/addon/unlimited-free-vpn-betternet/more"></div>
+
+<section class="primary island more-island">
+  
+      <section id="detail-relnotes" class="expando">
+      <h2>Información de la versión<a class="toggle" href="#detail-relnotes"><b></b></a></h2>
+      <div class="content listing">
+        <div class="items">
+          <div class="version item" id="version-2.0.1-signed">
+  <div class="info">
+    <h3><a href="/es/firefox/addon/unlimited-free-vpn-betternet/versions/2.0.1-signed"
+           title="Enlace permanente a esta versión">
+      Versión 2.0.1-signed</a>
+      <span class="meta">
+        <time datetime="2015-02-15T23:41:43Z">
+                    Publicado el February 15, 2015
+        </time>
+                  <span class="filesize">
+            306.6 kB
+          </span>
+              </span>
+              <span class="meta compat">
+                    Funciona con
+                      Firefox 32.0 y posterior        </span>
+          </h3>
+
+    <div class="desc prose"  lang="en-us" dir="ltr">
+      Thanks for using our service. As we improved the service and heard your feedback, we have in this version:<br>- New icon<br>- Fixed bugs<br>Now, you can know us as betternet to experience a real better net.<br>We are all ears to hear from you at hello@better<a rel="nofollow" href="https://outgoing.prod.mozaws.net/v1/f7589b5c06f3cb99729bbdab93c1b84f0bedddbeee95575adfba9b63d5241f96/http%3A//-net.com">-net.com</a>
+    </div>
+
+    <ul class="source">
+                  <li>
+                      Código fuente publicado bajo <a href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License, version 2.0</a>                  </li>
+        <li>
+          <a class="license-faq" href="/es/faq#license">
+            ¿Qué es esto?</a>
+        </li>
+              <li>
+        <a class="source-code"
+           href="/es/firefox/files/browse/298946/">
+          Ver el código fuente</a>
+      </li>
+        </ul>
+
+  </div>
+  <div class="action">
+    
+<div class="install-shell">
+<div class="install lite"
+       data-addon="562370"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/562/562370-32.png?modified=1459580882"
+  data-developers="/es/firefox/addon/unlimited-free-vpn-betternet/developers"
+  data-versions="/es/firefox/addon/562370/versions/"
+  data-name="Unlimited Free VPN by betternet"
+  
+  data-min="32.0"
+  data-max="44.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  caution "
+  data-hash="sha256:f29d03ab27dd25bfee10d4953bbc7aba79750ae49db6a83a29ba9cd8946ca28a"
+      href="https://addons.mozilla.org/firefox/downloads/file/298946/unlimited_free_vpn_by_vit-2.0-fx.xpi?src=dp-btn-version"
+  >
+      <b></b>
+    <span>
+      Descargar ahora
+          </span>
+  </a>
+      </p>
+</div> 
+
+      <div class="d2c-reasons-popup popup">
+      <p>Este complemento no es compatible con tu versión de Firefox por lo siguiente:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Descargar de todas maneras</a>
+</p>
+</div> 
+  </div>
+</div>
+        </div>
+        <p class="more c">
+          <a class="more-info" href="/es/firefox/addon/unlimited-free-vpn-betternet/versions/">
+            Ver el historial completo de versiones
+          </a>
+        </p>
+      </div>
+    </section>
+  
+  </section>
+
+
+</div>
+              </div>
+      <div id="tooltip">
+        <span></span>
+      </div>
+      <div id="popup-staging">
+        <div id="add-to-collection" class="popup">
+          <div class="collection-add-login">
+            <p>Para crear tu propia colección, debes tener una cuenta de Mozilla Add-ons.</p>
+            <p class="register-button">
+              <a class="button" href="/es/firefox/users/register">Crea una cuenta en Add-ons</a>
+            </p>
+            <p>
+              o <a href="/es/firefox/users/login?to=%2Fes%2Ffirefox%2Faddon%2Funlimited-free-vpn-betternet%2F">entra en tu cuenta actual</a>            </p>
+          </div>
+        </div>
+              <div class="modal" id="privacy-policy">
+      <a href="#" class="close">cerrar</a>
+      <h2>Política de privacidad</h2>
+      <div class="prose">
+        <a rel="nofollow" href="https://outgoing.prod.mozaws.net/v1/34e208b4368a932efbdc41edefa53bce85edc8aa0bcc3d35bd42532567a2462a/http%3A//vpnintouch.com/legal%23privacy">vpnintouch.com/legal#privacy</a>
+      </div>
+    </div>
+        <div class="modal" id="eula">
+      <a href="#" class="close">cerrar</a>
+      <h2>Acuerdo de licencia final de usuario</h2>
+      <div class="prose">
+        <a rel="nofollow" href="https://outgoing.prod.mozaws.net/v1/b392ae910885721ce464880dec3cc65ad46c9c3ad142aa1bd0a02fffbdf20005/http%3A//vpnintouch.com/legal%23terms">vpnintouch.com/legal#terms</a>
+      </div>
+    </div>
+          <div id="abuse-modal" class="modal">
+      <a href="#" class="close">cerrar</a>
+      <h2>Informar de uso indebido</h2>
+      <form method="post" action="/es/firefox/addon/unlimited-free-vpn-betternet/abuse/">
+  
+  <fieldset class="abuse">
+        <ol >
+      <li>
+        <p>Si sospechas que este complemento infringe <a href="https://developer.mozilla.org/en-US/Add-ons/AMO/Policy">nuestras políticas</a> o tiene problemas de seguridad o privacidad, utiliza el formulario para describirlo. No uses este formulario para ningún otro motivo.</p>
+      </li>
+      <li>
+        <textarea cols="40" id="id_text" name="text" rows="10">
+</textarea>
+        
+      </li>
+              <script src='https://www.google.com/recaptcha/api.js?hl=es' async defer></script>
+<div class="g-recaptcha" data-sitekey="6LcsBhYTAAAAAKpVTZ16Lh7nmTxVRKoKSr8e3vsV"></div>
+<noscript>
+  <div style="width: 302px; height: 484px;">
+    <div style="width: 302px; height: 424px; position: relative;">
+      <div style="width: 302px; height: 424px; position: absolute;">
+        <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcsBhYTAAAAAKpVTZ16Lh7nmTxVRKoKSr8e3vsV&amp;hl=es"
+                frameborder="0" scrolling="no"
+                style="width: 302px; height:424px; border-style: none;">
+        </iframe>
+      </div>
+    </div>
+    <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+      <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                class="g-recaptcha-response"
+                style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                       margin: 10px 25px; padding: 0px; resize: none;" >
+      </textarea>
+    </div>
+  </div>
+</noscript>
+        
+            <li class="footer-submit">
+        <button type="submit">Enviar informe</button>
+              </li>
+    </ol>
+  </fieldset>
+</form>
+    </div>
+        </div>
+    </div>
+          <div id="footer" role="contentinfo">
+        <div class="section">
+                    <img class="footerlogo" src="https://addons.cdn.mozilla.net/static/img/zamboni/footer-logo-med.png?b=a4642b0-57aa1f79" alt="Logo de pie de página">
+                                <div class="links-footer">
+  <ul>
+    <li>conoce los <b>complementos</b></li>
+    <li><a href="/es/about">Conócenos</a></li>
+    <li><a href="http://blog.mozilla.com/addons">Blog</a></li>
+    <li class="footer-devhub-link"><a href="/es/developers/">Centro de Desarrolladores</a></li>
+    <li><a href="/es/faq">FAQ</a></li>
+    <li><a href="https://discourse.mozilla-community.org/c/add-ons">Foro</a></li>
+  </ul>
+</div>
+<div id="footer-content">
+                <form class="languages go" id="lang_form" method="get" action="">
+          <label for="language">Otros idiomas</label>
+          <select id="language" name="lang" dir="ltr">
+            <option value="af" >
+                Afrikaans
+              </option><option value="ar" >
+                عربي
+              </option><option value="bg" >
+                Български
+              </option><option value="bn-bd" >
+                বাংলা (বাংলাদেশ)
+              </option><option value="ca" >
+                Català
+              </option><option value="cs" >
+                Čeština
+              </option><option value="da" >
+                Dansk
+              </option><option value="de" >
+                Deutsch
+              </option><option value="dsb" >
+                Dolnoserbšćina
+              </option><option value="el" >
+                Ελληνικά
+              </option><option value="en-gb" >
+                English (British)
+              </option><option value="en-us" >
+                English (US)
+              </option><option value="es" selected>
+                Español
+              </option><option value="eu" >
+                Euskara
+              </option><option value="fa" >
+                فارسی
+              </option><option value="fi" >
+                suomi
+              </option><option value="fr" >
+                Français
+              </option><option value="ga-ie" >
+                Gaeilge
+              </option><option value="he" >
+                עברית
+              </option><option value="hsb" >
+                Hornjoserbsce
+              </option><option value="hu" >
+                magyar
+              </option><option value="id" >
+                Bahasa Indonesia
+              </option><option value="it" >
+                Italiano
+              </option><option value="ja" >
+                日本語
+              </option><option value="ka" >
+                ქართული
+              </option><option value="ko" >
+                한국어
+              </option><option value="mk" >
+                Македонски
+              </option><option value="mn" >
+                Монгол
+              </option><option value="nl" >
+                Nederlands
+              </option><option value="nn-no" >
+                Norsk nynorsk
+              </option><option value="pl" >
+                Polski
+              </option><option value="pt-br" >
+                Português (do Brasil)
+              </option><option value="pt-pt" >
+                Português (Europeu)
+              </option><option value="ro" >
+                Română
+              </option><option value="ru" >
+                Русский
+              </option><option value="sk" >
+                slovenčina
+              </option><option value="sl" >
+                Slovenščina
+              </option><option value="sq" >
+                Shqip
+              </option><option value="sv-se" >
+                Svenska
+              </option><option value="uk" >
+                Українська
+              </option><option value="vi" >
+                Tiếng Việt
+              </option><option value="zh-cn" >
+                中文 (简体)
+              </option><option value="zh-tw" >
+                正體中文 (繁體)
+              </option>          </select>
+                    <noscript><button type="submit">Ir</button></noscript>
+        </form>
+            <div id="copyright">
+  <p id="footer-links">
+          <a href="http://www.mozilla.org/privacy/websites/">
+        Política de privacidad
+      </a> &nbsp;|&nbsp;
+      <a href="http://www.mozilla.org/about/legal.html">
+        Avisos legales
+      </a> &nbsp;|&nbsp;
+      <a href="http://www.mozilla.org/legal/fraud-report/index.html">
+        Informar de uso indebido de la marca
+      </a>
+                        &nbsp;|&nbsp;<a class="mobile-link" href="#">Ver sitio para dispositivos móviles</a>
+                &nbsp;|&nbsp;<a href="https://status.mozilla.org/#addons.mozilla.org_service_history">Estado del sitio</a>
+            </p>
+  <p>
+    Excepto si <a href="http://www.mozilla.org/about/legal.html#site">se especifica lo contrario</a>, el contenido de esta página tiene la licencia <br /><a href="http://creativecommons.org/licenses/by-sa/3.0/"> v3.0 de Creative Commons Attribution Share-Alike </a> o cualquier versión posterior.  </p>
+</div>    </div>
+                  </div>       </div>                   <script src="https://addons.cdn.mozilla.net/es/firefox/jsi18n.js?b=a4642b0-57aa1f79"></script>
+      <script src="https://addons.cdn.mozilla.net/static/js/impala-min.js?build=a4642b0-57aa1f79"></script>
+      <script async defer src="https://addons.cdn.mozilla.net/es/firefox/addons/buttons.js?b=a4642b0-57aa1f79"></script>
+          <script async defer src="https://www.paypalobjects.com/js/external/dg.js"></script>
+      </body>
+</html>���B      W��W��\<�]`       J    :https://addons.mozilla.org/es/firefox/addon/unlimited-free-vpn-betternet/ necko:classified 1 security-info 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 request-method GET request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0 response-head HTTP/1.1 200 OK
+content-security-policy: script-src 'self' https://addons.mozilla.org https://www.paypalobjects.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://ssl.google-analytics.com https://addons.cdn.mozilla.net; default-src 'self'; img-src 'self' data: blob: https://www.paypal.com https://ssl.google-analytics.com https://addons.cdn.mozilla.net https://static.addons.mozilla.net https://sentry.prod.mozaws.net; media-src https://videos.cdn.mozilla.net; style-src 'self' 'unsafe-inline' https://addons.cdn.mozilla.net; frame-src 'self' https://ic.paypal.com https://paypal.com https://www.google.com/recaptcha/ https://www.paypal.com; object-src 'none'; connect-src 'self' https://sentry.prod.mozaws.net; font-src 'self' https://addons.cdn.mozilla.net; report-uri /__cspreport__
+Content-Type: text/html; charset=utf-8
+Date: Wed, 17 Aug 2016 01:34:21 GMT
+Etag: "6b4ee4e7d3acc7eb5ae3d59498a0eca4"
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: X-Requested-With, X-Mobile, User-Agent
+X-Backend-Server: ip-172-31-41-6
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 33 predictor::https://addons.cdn.mozilla.net/static/css/tabzilla/tabzilla.css 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/css/zamboni/impala-min.css?build=393cdff 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/css/restyle/css-min.css?build=d908ded 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/js/preload-min.js?build=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/icons/firefox.png?b=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/user-media/addon_icons/562/562370-64.png?modified=1459580882 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/user-media/previews/thumbs/170/170674.png?modified=1453849494 1,1,1471397656,0 predictor::https://ssl.google-analytics.com/ga.js 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/css/impala/fonts/OpenSans-Regular.ttf?629a55a 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/tabzilla/tabzilla-static.png 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/icons/search.png?eaad389 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/icons/go-arrow.png?ad8fa66 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/stars-16.png?c518520 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/warning-bg.png?b726031 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/home.png?54712b2 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/css/impala/fonts/OpenSans-Bold.ttf?5014568 1,1,1471397656,0 predictor::https://www.google.com/recaptcha/api.js?hl=es 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/zamboni/footer-logo-med.png?b=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/es/firefox/jsi18n.js?b=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/js/impala-min.js?build=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/es/firefox/addons/buttons.js?b=a4642b0-57aa1f79 1,1,1471397656,0 predictor::https://www.paypalobjects.com/js/external/dg.js 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/loading-more.gif?4b3afb8 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/expando-large.png?4f1cc6f 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/css/impala/fonts/OpenSans-Italic.ttf?c7dcce0 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/search-stem.png?11fc7d4 1,1,1471397656,0 predictor::https://www.gstatic.com/recaptcha/api2/r20160811171912/recaptcha__es.js 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/email.png?135e6ca 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/button-icons.png?76a8a6e 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/user-media/collection_icons/2152/2152004.png?m=1459497697 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/icons/heart.png 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/icons/collection.png 1,1,1471397656,0 predictor::https://addons.cdn.mozilla.net/static/img/impala/stars.png?5f99704 1,1,1471397656,0   �^

@@ -1,0 +1,721 @@
+<style type="text/css">
+#snippetContainer div.snippet img.icon {
+  margin: -0.75em 1em 0 0;
+  float: left;
+}
+
+ 
+   .snippet {
+       position: relative;
+   }
+
+   .snippet .icon {
+       position: absolute;
+       right: 400px;
+       top: 5px;
+       height: 50px;
+   }
+
+   .snippet p {
+       display: table-cell;
+       height: 40px;
+       padding-left: 80px;
+       vertical-align: middle;
+       width: 400px;
+   }
+ 
+
+ 
+</style>
+<script type="text/javascript">
+//<![CDATA[
+  // Generated on 2016-08-29 15:27:42.834779
+  // Included snippets:
+
+  //  - 5716
+
+  //  - 5717
+
+  var ABOUTHOME_SNIPPETS = JSON.parse('[{\u0022code\u0022: \u0022\u003Cdiv data\u002Dsnippet\u002Did\u003D\u005C\u00225716\u005C\u0022 data\u002Dweight\u003D\u005C\u0022100\u005C\u0022 data\u002Dcampaign\u003D\u005C\u0022\u005C\u0022 class\u003D\u005C\u0022snippet\u002Dmetadata\u005C\u0022\u003E\u005Cn\u003Cstyle\u003E\u005Cndiv.switch#brandLogo {\u005Cn   background\u002Dsize: 192px auto\u003B\u005Cn}\u005Cn\u005Cn.switch#brandLogo {\u005Cn   height: 192px\u003B\u005Cn   width: 192px\u003B\u005Cn}\u005Cn\u005Cn#snippetContainer div.snippet {\u005Cn   margin: 10px 5px\u003B\u005Cn}\u005Cn\u005Cn#snippetContainer div.snippet img.icon {\u005Cn    margin: 5px\u003B\u005Cn    float: none\u003B\u005Cn}\u005Cn\u005Cn.snippet p {\u005Cn    display: inline\u002Dblock\u003B\u005Cn    padding\u002Dleft: 0\u003B\u005Cn    width: auto\u003B\u005Cn    max\u002Dwidth: 380px\u003B\u005Cn    height: auto\u003B\u005Cn    vertical\u002Dalign: middle\u003B\u005Cn}\u005Cn\u005Cn.snippet .icon {\u005Cn    position: relative\u003B\u005Cn    right: 0\u003B\u005Cn    top: 0\u003B\u005Cn    display: inline\u002Dblock\u003B\u005Cn    height: auto\u003B\u005Cn    max\u002Dheight: 64px\u003B\u005Cn    vertical\u002Dalign: middle\u003B\u005Cn}\u005Cn\u005Cn\u005Cn\u005Cn\u005Cn\u005Cn \u005Cn\u005Cn\u003C/style\u003E\u005Cn\u005Cn  \u003Cdiv class\u003D\u005C\u0022snippet\u005C\u0022 id\u003D\u005C\u0022snippet\u005C\u0022\u003E\u005Cn    \u005Cn\u005Cn    \u005Cn          \u003Cimg class\u003D\u005C\u0022icon\u005C\u0022 src\u003D\u005C\u0022data:image/png\u003Bbase64,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\u003D\u005C\u0022 /\u003E\u005Cn    \u005Cn\u005Cn    \u003Cp\u003EThe Mars Exploration Rover is currently mapping the Red Planet. Firefox is another name for a Red Panda. Coincidence? Definitely.\u003C/p\u003E\u005Cn\u005Cn    \u005Cn\u005Cn    \u005Cn  \u003C/div\u003E\u005Cn\u005Cn\u003Cscript type\u003D\u005C\u0022text/javascript\u005C\u0022\u003E\u005Cn //\u003C![CDATA[\u005Cn (function() {\u005Cn     var snippet \u003D document.getElementById(\u0027snippet\u0027)\u003B\u005Cn\u005Cn     snippet.addEventListener(\u0027show_snippet\u0027, function () {\u005Cn         var overlay \u003D document.getElementById(\u0027block\u002Dsnippet\u002Doverlay\u0027)\u003B\u005Cn         var xbuttons \u003D document.querySelectorAll(\u0027.block\u002Dsnippet\u002Dbutton\u0027)\u003B\u005Cn\u005Cn         \u005Cn\u005Cn         \u005Cn\u005Cn         \u005Cn     })\u003B\u005Cn })()\u003B\u005Cn //]]\u003E\u005Cn\u003C/script\u003E\u003C/div\u003E\u0022, \u0022campaign\u0022: \u0022\u0022, \u0022weight\u0022: 100, \u0022countries\u0022: [], \u0022exclude_from_search_engines\u0022: [], \u0022client_options\u0022: {\u0022version_lower_bound\u0022: \u0022any\u0022, \u0022is_default_browser\u0022: \u0022any\u0022, \u0022has_fxaccount\u0022: \u0022any\u0022, \u0022has_testpilot\u0022: \u0022any\u0022, \u0022version_upper_bound\u0022: \u0022any\u0022}, \u0022id\u0022: 5716}, {\u0022code\u0022: \u0022\u003Cdiv data\u002Dsnippet\u002Did\u003D\u005C\u00225717\u005C\u0022 data\u002Dweight\u003D\u005C\u0022100\u005C\u0022 data\u002Dcampaign\u003D\u005C\u0022\u005C\u0022 class\u003D\u005C\u0022snippet\u002Dmetadata\u005C\u0022\u003E\u005Cn\u003Cstyle\u003E\u005Cndiv.switch#brandLogo {\u005Cn   background\u002Dsize: 192px auto\u003B\u005Cn}\u005Cn\u005Cn.switch#brandLogo {\u005Cn   height: 192px\u003B\u005Cn   width: 192px\u003B\u005Cn}\u005Cn\u005Cn#snippetContainer div.snippet {\u005Cn   margin: 10px 5px\u003B\u005Cn}\u005Cn\u005Cn#snippetContainer div.snippet img.icon {\u005Cn    margin: 5px\u003B\u005Cn    float: none\u003B\u005Cn}\u005Cn\u005Cn.snippet p {\u005Cn    display: inline\u002Dblock\u003B\u005Cn    padding\u002Dleft: 0\u003B\u005Cn    width: auto\u003B\u005Cn    max\u002Dwidth: 380px\u003B\u005Cn    height: auto\u003B\u005Cn    vertical\u002Dalign: middle\u003B\u005Cn}\u005Cn\u005Cn.snippet .icon {\u005Cn    position: relative\u003B\u005Cn    right: 0\u003B\u005Cn    top: 0\u003B\u005Cn    display: inline\u002Dblock\u003B\u005Cn    height: auto\u003B\u005Cn    max\u002Dheight: 64px\u003B\u005Cn    vertical\u002Dalign: middle\u003B\u005Cn}\u005Cn\u005Cn\u005Cn\u005Cn\u005Cn\u005Cn \u005Cn\u005Cn\u003C/style\u003E\u005Cn\u005Cn  \u003Cdiv class\u003D\u005C\u0022snippet\u005C\u0022 id\u003D\u005C\u0022snippet\u005C\u0022\u003E\u005Cn    \u005Cn\u005Cn    \u005Cn          \u003Cimg class\u003D\u005C\u0022icon\u005C\u0022 src\u003D\u005C\u0022data:image/png\u003Bbase64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1NDRkMjFiNC0zOTYxLTQ0YTktYmFiMS02OWE5ZDc5ZmI5MTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDQyMTM2N0U2MzExMTFFNjgwNUVEQjk3NjQxMEMwMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDQyMTM2N0Q2MzExMTFFNjgwNUVEQjk3NjQxMEMwMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NDRkMjFiNC0zOTYxLTQ0YTktYmFiMS02OWE5ZDc5ZmI5MTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTQ0ZDIxYjQtMzk2MS00NGE5LWJhYjEtNjlhOWQ3OWZiOTE1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\u003D\u005C\u0022 /\u003E\u005Cn    \u005Cn\u005Cn    \u003Cp\u003EFree thought: Never let a dress code get in the way of fun socks.\u003C/p\u003E\u005Cn\u005Cn    \u005Cn\u005Cn    \u005Cn  \u003C/div\u003E\u005Cn\u005Cn\u003Cscript type\u003D\u005C\u0022text/javascript\u005C\u0022\u003E\u005Cn //\u003C![CDATA[\u005Cn (function() {\u005Cn     var snippet \u003D document.getElementById(\u0027snippet\u0027)\u003B\u005Cn\u005Cn     snippet.addEventListener(\u0027show_snippet\u0027, function () {\u005Cn         var overlay \u003D document.getElementById(\u0027block\u002Dsnippet\u002Doverlay\u0027)\u003B\u005Cn         var xbuttons \u003D document.querySelectorAll(\u0027.block\u002Dsnippet\u002Dbutton\u0027)\u003B\u005Cn\u005Cn         \u005Cn\u005Cn         \u005Cn\u005Cn         \u005Cn     })\u003B\u005Cn })()\u003B\u005Cn //]]\u003E\u005Cn\u003C/script\u003E\u003C/div\u003E\u0022, \u0022campaign\u0022: \u0022\u0022, \u0022weight\u0022: 100, \u0022countries\u0022: [], \u0022exclude_from_search_engines\u0022: [], \u0022client_options\u0022: {\u0022version_lower_bound\u0022: \u0022any\u0022, \u0022is_default_browser\u0022: \u0022any\u0022, \u0022has_fxaccount\u0022: \u0022any\u0022, \u0022has_testpilot\u0022: \u0022any\u0022, \u0022version_upper_bound\u0022: \u0022any\u0022}, \u0022id\u0022: 5717}]');
+  var CURRENT_RELEASE = 48;
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+'use strict';
+
+var SNIPPET_METRICS_SAMPLE_RATE = 0.1;
+var SNIPPET_METRICS_URL = 'https://snippets-stats.us-west.moz.works/foo';
+var ABOUTHOME_SHOWN_SNIPPET = null;
+var USER_COUNTRY = null;
+var GEO_CACHE_DURATION = 1000 * 60 * 60 * 24 * 30; // 30 days
+
+// Start MozUITour
+// Copy from https://hg.mozilla.org/mozilla-central/file/tip/browser/components/uitour/UITour-lib.js
+if (typeof Mozilla == 'undefined') {
+    var Mozilla = {};
+}
+
+if (typeof Mozilla.UITour == 'undefined') {
+    Mozilla.UITour = {};
+}
+
+function _sendEvent(action, data) {
+    var event = new CustomEvent('mozUITour', {
+        bubbles: true,
+        detail: {
+            action: action,
+            data: data || {}
+        }
+    });
+
+    document.dispatchEvent(event);
+}
+
+function _generateCallbackID() {
+    return Math.random().toString(36).replace(/[^a-z]+/g, '');
+}
+
+function _waitForCallback(callback) {
+    var id = _generateCallbackID();
+
+    function listener(event) {
+        if (typeof event.detail != 'object')
+            return;
+        if (event.detail.callbackID != id)
+            return;
+
+        document.removeEventListener('mozUITourResponse', listener);
+        callback(event.detail.data);
+    }
+    document.addEventListener('mozUITourResponse', listener);
+
+    return id;
+}
+
+Mozilla.UITour.showHighlight = function(target, effect) {
+    _sendEvent('showHighlight', {
+        target: target,
+        effect: effect
+    });
+};
+
+Mozilla.UITour.hideHighlight = function() {
+    _sendEvent('hideHighlight');
+};
+
+Mozilla.UITour.showMenu = function(name, callback) {
+    var showCallbackID;
+    if (callback)
+        showCallbackID = _waitForCallback(callback);
+
+    _sendEvent('showMenu', {
+        name: name,
+        showCallbackID: showCallbackID
+    });
+};
+
+Mozilla.UITour.hideMenu = function(name) {
+    _sendEvent('hideMenu', {
+        name: name
+    });
+};
+
+Mozilla.UITour.getConfiguration = function(configName, callback) {
+    _sendEvent('getConfiguration', {
+        callbackID: _waitForCallback(callback),
+        configuration: configName,
+    });
+};
+
+Mozilla.UITour.setConfiguration = function(configName, configValue) {
+    _sendEvent('setConfiguration', {
+        configuration: configName,
+        value: configValue
+    });
+};
+// End MozUITour
+
+
+(function(showDefaultSnippets) {
+    'use strict';
+
+    // showDefaultSnippets polyfill, available in about:home v4
+    if (typeof showDefaultSnippets !== 'function') {
+        showDefaultSnippets = function() {
+            localStorage.snippets = '';
+            showSnippets();
+        };
+    }
+
+    // gSnippetsMap polyfill, available in Firefox 22 and above.
+    var gSnippetsMap = null;
+    if (supportsLocalStorage()) {
+        // localStorage is available, so we wrap it with gSnippetsMap.
+        gSnippetsMap = {
+            set: function(key, value) {
+                localStorage[key] = value;
+            },
+            get: function(key) {
+                return localStorage[key];
+            }
+        };
+        window.gSnippetsMap = gSnippetsMap;
+    } else {
+        // localStorage isn't available, use gSnippetsMap (backed by IndexedDB).
+        gSnippetsMap = window.gSnippetsMap;
+    }
+
+
+    var show_snippet = null;
+    if (ABOUTHOME_SNIPPETS.length > 0) {
+        show_snippet = chooseSnippet(ABOUTHOME_SNIPPETS);
+    }
+
+    if (show_snippet) {
+        ABOUTHOME_SHOWN_SNIPPET = show_snippet;
+
+        // Inject the snippet onto the page.
+        var snippetContainer = document.createElement('div');
+        snippetContainer.innerHTML = show_snippet.code;
+        document.getElementById('snippets').appendChild(snippetContainer);
+        activateScriptTags(snippetContainer);
+
+        try {
+            activateSnippetsButtonClick(show_snippet);
+        } catch (err) {
+            // Do nothing, most likely a newer version of Firefox w/o
+            // activateSnippetsButtonClick
+        }
+
+        // By the time show_snippet event reaches #snippets the snippet
+        // will have finished initializing and altering the DOM. It's the
+        // time to modifyLinks() and addSnippetBlockLinks().
+        var snippets = document.getElementById('snippets');
+        snippets.addEventListener('show_snippet', function(event) {
+            var topSection = document.getElementById('topSection');
+            // Add sample rate and snippet ID to currently displayed links.
+            var parameters = ('sample_rate=' + SNIPPET_METRICS_SAMPLE_RATE + '&snippet_name=' +
+                              ABOUTHOME_SHOWN_SNIPPET.id);
+            modifyLinks(topSection.querySelectorAll('a'), parameters);
+            addSnippetBlockLinks(topSection.querySelectorAll('.block-snippet-button'));
+            keypressIsMine(snippetContainer.querySelector('.snippet'));
+            sendImpression();
+        });
+
+        // Trigger show_snippet event
+        var evt = document.createEvent('Event');
+        evt.initEvent('show_snippet', true, true);
+        snippetContainer.querySelector('.snippet').dispatchEvent(evt);
+    } else {
+        showDefaultSnippets();
+    }
+
+    // Update FxAccount Status
+    updateFxAccountStatus();
+
+    // Update Default Browser Status
+    updateDefaultBrowserStatus();
+
+    // Update Selected Search Engine
+    updateSelectedSearchEngine();
+
+    // Fetch user country if we don't have it.
+    if (!haveUserCountry()) {
+        downloadUserCountry();
+    }
+
+    
+    // Choose which snippet to display to the user based on various factors,
+    // such as which country they are in.
+    function chooseSnippet(snippets) {
+        USER_COUNTRY = getUserCountry();
+        if (USER_COUNTRY) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    var countries = snippet.countries;
+                    if (countries.length && countries.indexOf(USER_COUNTRY) === -1) {
+                        return false;
+                    }
+                    return true;
+                }
+            );
+        }
+        else {
+            // If we don't have the user's country, remove all geolocated snippets.
+            // Bug 1140476
+            snippets = snippets.filter(
+                function(snippet) {
+                    return snippet.countries.length === 0;
+                }
+            )
+        }
+
+        // Filter Snippets based on the has_fxaccount attribute.
+        var has_fxaccount = gSnippetsMap.get('fxaccount');
+        if (has_fxaccount === true) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_fxaccount == 'yes' ||
+                            snippet.client_options.has_fxaccount == 'any');
+                }
+            )
+        } else if (has_fxaccount === false) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_fxaccount == 'no' ||
+                            snippet.client_options.has_fxaccount == 'any');
+                }
+            );
+        } else {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_fxaccount == 'any');
+                }
+            );
+        }
+
+        // Filter Snippets based on TestPilot addon existence.
+        var has_testpilot = Boolean(window.navigator.testpilotAddon);
+        if (has_testpilot === true) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_testpilot == 'yes' ||
+                            snippet.client_options.has_testpilot == 'any');
+                }
+            )
+        } else {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_testpilot == 'no' ||
+                            snippet.client_options.has_testpilot == 'any');
+                }
+            );
+        }
+
+        // Filter Snippets based on whether Firefox is the default browser or now.
+        var is_default_browser = gSnippetsMap.get('is_default_browser');
+        if (is_default_browser === true || is_default_browser === undefined) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.is_default_browser == 'yes' ||
+                            snippet.client_options.is_default_browser == 'any');
+                }
+            )
+        } else {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.is_default_browser == 'no' ||
+                            snippet.client_options.is_default_browser == 'any');
+                }
+            );
+        }
+
+        // Exclude snippets from search providers.
+        var searchProvider = gSnippetsMap.get('selectedSearchEngine');
+        if (searchProvider) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    var excludeFromSearchEngines = snippet.exclude_from_search_engines;
+                    if (excludeFromSearchEngines.length && excludeFromSearchEngines.indexOf(searchProvider) !== -1) {
+                        return false;
+                    }
+                    return true;
+                }
+            );
+        }
+
+        // Filter Snippets based on TestPilot addon existence.
+        var has_testpilot = Boolean(window.navigator.testpilotAddon);
+        if (has_testpilot === true) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_testpilot == 'yes' ||
+                            snippet.client_options.has_testpilot == 'any');
+                }
+            )
+        } else {
+            snippets = snippets.filter(
+                function(snippet) {
+                    return (snippet.client_options.has_testpilot == 'no' ||
+                            snippet.client_options.has_testpilot == 'any');
+                }
+            );
+        }
+
+        // Filter based on Firefox version
+        var userAgent = window.navigator.userAgent.match(/Firefox\/([0-9]+)\./);
+        var firefox_version  = userAgent ? parseInt(userAgent[1]) : 0;
+        if (firefox_version !== 0) {
+            snippets = snippets.filter(
+                function(snippet) {
+                    var lower_bound = snippet.client_options.version_lower_bound;
+                    var upper_bound = snippet.client_options.version_upper_bound;
+                    if (lower_bound && lower_bound !== 'any') {
+                        if (lower_bound === 'current_release') {
+                            if (firefox_version !== CURRENT_RELEASE)
+                                return false;
+                        }
+                        else {
+                            if (firefox_version < lower_bound) {
+                                return false;
+                            }
+                        }
+                    }
+                    if (upper_bound && upper_bound !== 'any') {
+                        if (upper_bound === 'older_than_current_release') {
+                            if (firefox_version >= CURRENT_RELEASE)
+                                return false;
+                        }
+                        else {
+                            if (firefox_version > upper_bound)
+                                return false;
+                        }
+                    }
+                    return true;
+                });
+        }
+
+        // Exclude snippets in block list.
+        var blockList = getBlockList();
+        snippets = snippets.filter(
+            function (snippet) {
+                if (blockList.indexOf(snippet.id) === -1) {
+                    return true;
+                }
+                return false;
+            }
+        );
+
+        // Choose a random snippet from the snippets list.
+        if (snippets && snippets.length) {
+            var sum = 0;
+            var number_of_snippets = snippets.length;
+            for (var k = 0; k < number_of_snippets; k++) {
+                sum += snippets[k].weight;
+                snippets[k].weight = sum;
+            }
+            var random_number = Math.random() * sum;
+            for (var k = 0; k < number_of_snippets; k++) {
+                if (random_number < snippets[k].weight) {
+                    return snippets[k];
+                }
+            }
+        } else {
+            return null;
+        }
+    }
+    
+
+    function updateFxAccountStatus() {
+        var callback = function(result) {
+            gSnippetsMap.set('fxaccount', result.setup);
+        }
+        var event = new CustomEvent(
+            'mozUITour', {
+                bubbles: true,
+                detail: {
+                    action:'getConfiguration',
+                    data: {
+                        configuration: 'sync',
+                        callbackID: _waitForCallback(callback)
+                    }
+                }
+            }
+        );
+        document.dispatchEvent(event);
+    }
+
+    function updateDefaultBrowserStatus() {
+        var callback = function(result) {
+            gSnippetsMap.set('is_default_browser', result.defaultBrowser);
+        }
+        var event = new CustomEvent(
+            'mozUITour', {
+                bubbles: true,
+                detail: {
+                    action:'getConfiguration',
+                    data: {
+                        configuration: 'appinfo',
+                        callbackID: _waitForCallback(callback)
+                    }
+                }
+            }
+        );
+        document.dispatchEvent(event);
+    }
+
+    function updateSelectedSearchEngine() {
+        var callback = function(result) {
+            gSnippetsMap.set('selectedSearchEngine', result.searchEngineIdentifier);
+        }
+        var event = new CustomEvent(
+            'mozUITour', {
+                bubbles: true,
+                detail: {
+                    action:'getConfiguration',
+                    data: {
+                        configuration: 'selectedSearchEngine',
+                        callbackID: _waitForCallback(callback)
+                    }
+                }
+            }
+        );
+        document.dispatchEvent(event);
+    }
+
+    // Check whether we have the user's country stored and if it is still valid.
+    function haveUserCountry() {
+        // Check if there's an existing country code to use.
+        if (gSnippetsMap.get('geoCountry')) {
+            // Make sure we have a valid lastUpdated date.
+            var lastUpdated = Date.parse(gSnippetsMap.get('geoLastUpdated'));
+            if (lastUpdated) {
+                // Make sure that it is past the lastUpdated date.
+                var now = new Date();
+                if (now < lastUpdated + GEO_CACHE_DURATION) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    function getUserCountry() {
+        if (haveUserCountry()) {
+            return gSnippetsMap.get('geoCountry').toLowerCase();
+        } else {
+            return null;
+        }
+    }
+
+    // Download the user's country using the geolocation service.
+    // Please do not directly use this code or Snippets key.
+    // Contact MLS team for your own credentials.
+    // https://location.services.mozilla.com/contact
+    function downloadUserCountry() {
+        var GEO_URL = "https://location.services.mozilla.com/v1/country?key=fff72d56-b040-4205-9a11-82feda9d83a3";
+        var request = new XMLHttpRequest();
+        request.timeout = 60000;
+        request.onreadystatechange = function() {
+            if (request.readyState == 4 && request.status == 200) {
+                var country_data = JSON.parse(request.responseText);
+
+                try {
+                    gSnippetsMap.set('geoCountry', country_data.country_code);
+                    gSnippetsMap.set('geoLastUpdated', new Date());
+                } catch (e) {
+                    // Most likely failed to load Data file. Continue on without us,
+                    // we'll try again next time.
+                }
+            }
+        };
+        request.open('GET', GEO_URL, true);
+        request.send();
+    }
+
+    // Notifies stats server that the given snippet ID
+    // was shown. No personally-identifiable information
+    // is sent.
+    function sendImpression() {
+        sendMetric('impression');
+    }
+
+    // Modifies the given links to include the specified GET parameters.
+    function modifyLinks(links, parameters) {
+        for (var k = 0, len = links.length; k < len; k++) {
+            var link = links[k];
+            var delimeter = (link.href.indexOf('?') !== -1 ? '&' : '?');
+
+            // Pull the fragment off of the link
+            var fragment_position = link.href.indexOf('#');
+            if (fragment_position === -1) {
+                fragment_position = link.href.length;
+            }
+
+            var href = link.href.substring(0, fragment_position);
+            var fragment = link.href.substring(fragment_position);
+
+            link.href = href + delimeter + parameters + fragment;
+        }
+    }
+
+    // Add links to buttons that block snippets.
+    function addSnippetBlockLinks(elements) {
+        var snippet_id = ABOUTHOME_SHOWN_SNIPPET.id;
+        var blockSnippet = function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            addToBlockList(snippet_id);
+
+            // Waiting for 500ms before reloading the page after user blocks a snippet,
+            // will allow the IndexedDB more time to complete its transaction. While
+            // this is an imperfect non-deterministic solution it will fix the issue
+            // for most of the users. Ideally we would create our own
+            // connection to the iDB and ensure that the write completes
+            // before we reload the page. Bug 1236090.
+            function reloadWindow() {
+                window.location.reload();
+            }
+            sendMetric('snippet-blocked', function() { setTimeout(reloadWindow, 500); })
+        };
+
+        for (var k = 0; k < elements.length; k++) {
+            var button = elements[k];
+            button.addEventListener('click', blockSnippet);
+        }
+    }
+
+    // Bug 1238092. Got fixed in Fx45. We can drop this when Fx44
+    // usage drops significantly.
+    function keypressIsMine(snippet) {
+        snippet.addEventListener('keypress', function(event) {
+            var tagName = event.target.tagName.toLowerCase();
+            if (tagName === 'input' || tagName === 'select') {
+                event.stopPropagation();
+            }
+        });
+    }
+
+    // Check for localStorage support. Copied from Modernizr.
+    function supportsLocalStorage() {
+        var s = 'snippets-test';
+        try {
+            localStorage.setItem(s, s);
+            localStorage.removeItem(s);
+            return true;
+        } catch(e) {
+            return false;
+        }
+    }
+
+    // Scripts injected by innerHTML are inactive, so we have to relocate them
+    // through DOM manipulation to activate their contents.
+    // (Adapted from http://mxr.mozilla.org/mozilla-central/source/browser/base/content/abouthome/aboutHome.js)
+    function activateScriptTags(element) {
+       Array.forEach(element.getElementsByTagName('script'), function(elt) {
+           var relocatedScript = document.createElement('script');
+           relocatedScript.type = 'text/javascript;version=1.8';
+           relocatedScript.text = elt.text;
+           elt.parentNode.replaceChild(relocatedScript, elt);
+       });
+    }
+
+    // Listen for clicks on links, send metrics and handle
+    // about:account custom links.
+    var topSection = document.getElementById('topSection');
+    topSection.addEventListener('click', function(event) {
+        var target = event.target;
+        while (target.tagName && target.tagName.toLowerCase() !== 'a') {
+            // Do not track clicks outside topSection.
+            if (target.id === 'topSection') {
+                return;
+            }
+            target = target.parentNode;
+        }
+
+        // Count snippet clicks.
+        if (target.dataset.eventCounted !== 'true') {
+            target.dataset.eventCounted = 'true';
+            // Fetch custom metric or default to 'click'
+            var metric = target.dataset.metric || 'click';
+            // If user is not opening a new tab, preventDefault action.
+            if (target.href && (event.button === 0 && !(event.metaKey || event.ctrlKey))) {
+                event.preventDefault();
+                var callback = function() {
+                    target.click();
+                }
+            }
+            sendMetric(metric, callback);
+        }
+
+        // Handle about:accounts clicks.
+        if (target.href && target.href.indexOf('about:accounts') === 0) {
+            var snippet_id = ABOUTHOME_SHOWN_SNIPPET.id;
+            var metric = snippet_id + '-about-accounts-click';
+            var fire_event = function() {
+                var event = new CustomEvent(
+                    'mozUITour',
+                    { bubbles: true, detail: { action:'showFirefoxAccounts', data: {}}}
+                );
+                document.dispatchEvent(event);
+            };
+            sendMetric(metric, fire_event);
+        }
+    }, false);
+
+
+})(window.showDefaultSnippets);
+
+// Send impressions and other interactions to the service
+// If no parameter is entered, quit function
+function sendMetric(metric, callback) {
+    
+    
+      if ((Math.random() > SNIPPET_METRICS_SAMPLE_RATE) || (!metric)) {
+          if (callback) {
+              callback();
+          }
+          return;
+      }
+
+      var locale = 'en-US';
+      var userCountry = USER_COUNTRY || '';
+      var campaign = ABOUTHOME_SHOWN_SNIPPET.campaign;
+      var snippet_id = ABOUTHOME_SHOWN_SNIPPET.id;
+
+      var url = (SNIPPET_METRICS_URL + '?snippet_name=' + snippet_id +
+                 '&locale=' + locale + '&country=' + userCountry +
+                 '&metric=' + metric + '&campaign=' + campaign);
+      var request = new XMLHttpRequest();
+      request.open('GET', url);
+      if (callback) {
+          request.addEventListener('loadend', callback, false);
+      }
+      request.send();
+      return request;
+    
+}
+
+function popFromBlockList(snippetID) {
+    var blockList = getBlockList();
+    var item = blockList.pop(snippetID);
+    gSnippetsMap.set('blockList', blockList);
+    return item;
+}
+
+function addToBlockList(snippetID) {
+    var blockList = getBlockList();
+    snippetID = parseInt(snippetID, 10);
+    if (blockList.indexOf(snippetID) === -1) {
+        blockList = [snippetID].concat(blockList);
+        gSnippetsMap.set('blockList', blockList);
+    }
+}
+
+function getBlockList() {
+    if (gSnippetsMap.get('blockList') === undefined) {
+        gSnippetsMap.set('blockList', []);
+    }
+    return gSnippetsMap.get('blockList');
+}
+//]]>
+</script>èQàÌ      W∆9ªW∆9ª<◊,gWÎ·k   h    a,:https://snippets.cdn.mozilla.net/us-west/bundles/bundle_8616b220dc09ecb4474423ce964c02656d8325a1.html necko:classified 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8F+O2DZM7ZTG6GukivU8OT5gAAAAAAAAUoMIIFJDCCBAygAwIBAgIQBvKITxcFmVFgpBnShsOHcTANBgkqhkiG9w0BAQsFADBNMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5EaWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMTUwMzEyMDAwMDAwWhcNMTcwMzE2MTIwMDAwWjBsMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxHDAaBgNVBAoTE01vemlsbGEgQ29ycG9yYXRpb24xGjAYBgNVBAMMESouY2RuLm1vemlsbGEubmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArd1PwIc1JUz3R98ls44sNn/ms5F/GIPiN8wn3vxx+cQTztQGqO4a2+0GyX1RD88e3KlASHe/Mb2HwM2AqmvtUM75NnSLy2Fa/9P0fCuLyqQPQSZdSGrKW9jJL4Zod/YlhHvf/pcLSZo3fRvDLRUE9TYbuy6oNjeoCYXMtjjFpYl5DyzYyL9NKBEfAL2p4a9nqvuN17joKMnrmt5JR3A0g4hLzOXc7o6OnYwfaPgF9db/nna74ROj0lYQHQkP/jBlydiCo0i8Ju8dkS0K1vdg/hio+zmJTU5epUgR5UQygYiiBxyov3kk9ALX5Xlu5OscKhcR/Vu8uslwBy0RKEeGXQIDAQABo4IB3zCCAdswHwYDVR0jBBgwFoAUD4BhHIIxYdUvKOeNRji0LOHG2eIwHQYDVR0OBBYEFEwziXLlFOUjs2Aq/Pa8SoP0+48iMC0GA1UdEQQmMCSCESouY2RuLm1vemlsbGEubmV0gg9jZG4ubW96aWxsYS5uZXQwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBrBgNVHR8EZDBiMC+gLaArhilodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc3NjYS1zaGEyLWczLmNybDAvoC2gK4YpaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL3NzY2Etc2hhMi1nMy5jcmwwQgYDVR0gBDswOTA3BglghkgBhv1sAQEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzB8BggrBgEFBQcBAQRwMG4wJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBGBggrBgEFBQcwAoY6aHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hBMlNlY3VyZVNlcnZlckNBLmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4IBAQCWySmCzgXCq5Xt5aNaytCwERbSQIWLzDv8f8AERKCGZGuuB7yJN53YHk0ef5Df0z13jg5zSch9jwNFQZlQC/GDvubla/3gXq8OfLT8GFc/T6pIoXHHUIFsEfA19S627WsiSNcgCYYJpOq/mhaIsWpVUMjOmC4EwDbDvc9bDzoyvR6R8do+G1E1sCMadJ/YS4ONapb5jBsV0Jstrsxmv6bxEHnBAVqFc4CGngmoYvJNVX5aZU9Ois1WIzpZFicECk1gGeNJfVmpPMwqPScaRh4yY2/fEpzY9M9BAgMgU7Bpx4ZFKZY0Feytk5yMqAswc0QeWVJjkSAx2w3dMgIPKQ+BwC8AAwAAAAABAQAA request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 46653
+Date: Mon, 29 Aug 2016 15:27:44 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Access-Control-Max-Age: 900
+Last-Modified: Mon, 29 Aug 2016 15:27:43 GMT
+Etag: "cb26f8cfb3672b4b7fa84c9856a206af"
+Cache-Control: max-age=2592000
+Accept-Ranges: bytes
+Server: AmazonS3
+Age: 124240
+X-Cache: Hit from cloudfront
+Via: 1.1 521677cb737ea195cb873db955bcc307.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: M5lt-l2Y85x8H3PrwEdla4yBHQo5yp_lQGKsPEF00n79kw3bYas0Bw==
+ uncompressed-len 0   ∂=

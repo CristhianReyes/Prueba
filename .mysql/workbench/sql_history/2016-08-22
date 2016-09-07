@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='20:05:02'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='20:08:28'>~</ENTRY>
+<ENTRY timestamp='20:08:53'>~</ENTRY>
+<ENTRY timestamp='20:12:18'>~</ENTRY>
+<ENTRY timestamp='20:12:26'>~</ENTRY>
+<ENTRY timestamp='20:12:29'>~</ENTRY>
+<ENTRY timestamp='20:33:43'>~</ENTRY>
+<ENTRY timestamp='20:42:46'>~</ENTRY>
+<ENTRY timestamp='20:43:27'>~</ENTRY>
+<ENTRY timestamp='20:43:55'>~</ENTRY>
+<ENTRY timestamp='21:56:16'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='21:57:52'>insert into pages (&apos;a&apos;,&apos;aa&apos;,&apos;aaa&apos;)</ENTRY>
+<ENTRY timestamp='22:00:23'>insert into pages  (enlace, titulo, descripcion) &#x0A;values (a,aa,aaa)</ENTRY>
+<ENTRY timestamp='22:00:34'>insert into pages  (enlace, titulo, descripcion)  values (a,aa,aaa)</ENTRY>
+<ENTRY timestamp='22:00:51'>insert into pages  values (a,aa,aaa)</ENTRY>
+<ENTRY timestamp='22:01:01'>insert into pages  values (&apos;a&apos;,&apos;aa&apos;,&apos;aaa&apos;)</ENTRY>
+<ENTRY timestamp='22:01:15'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='22:03:39'>DROP DATABASE `URLS`</ENTRY>
+<ENTRY timestamp='22:58:45'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='23:18:14'>CREATE SCHEMA `web2`</ENTRY>
+<ENTRY timestamp='23:22:34'>CREATE TABLE `web2`.`Paginas` (&#x0A;  `enlace` VARCHAR(100) NULL,&#x0A;  `titulo` VARCHAR(100) NULL,&#x0A;  `descripcion` VARCHAR(100) NULL)</ENTRY>
+<ENTRY timestamp='23:23:10'>use table web2</ENTRY>
+<ENTRY timestamp='23:29:13'>SELECT * FROM web2.Paginas</ENTRY>
+<ENTRY timestamp='23:50:56'>~</ENTRY>

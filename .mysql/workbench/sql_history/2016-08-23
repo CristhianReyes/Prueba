@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='09:07:33'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='09:09:11'>delete from pages where id = 1</ENTRY>
+<ENTRY timestamp='09:09:38'>delete from pages</ENTRY>
+<ENTRY timestamp='09:09:57'>SELECT * FROM webs.pages</ENTRY>
+<ENTRY timestamp='09:10:21'>DROP DATABASE `webs`</ENTRY>
+<ENTRY timestamp='09:10:42'>CREATE SCHEMA `urls`</ENTRY>
+<ENTRY timestamp='09:11:43'>CREATE TABLE `urls`.`new_table` (&#x0A;  `enlace` VARCHAR(45) NULL,&#x0A;  `titulo` VARCHAR(45) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='09:12:23'>delete table new_table from urls</ENTRY>
+<ENTRY timestamp='09:12:46'>DROP DATABASE `urls`</ENTRY>
+<ENTRY timestamp='09:12:56'>CREATE SCHEMA `urls`</ENTRY>
+<ENTRY timestamp='09:13:55'>CREATE TABLE `urls`.`paginas` (&#x0A;  `enlace` VARCHAR(100) NULL,&#x0A;  `titulo` VARCHAR(100) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='09:23:48'>SELECT * FROM urls.paginas</ENTRY>
+<ENTRY timestamp='09:25:19'>~</ENTRY>
+<ENTRY timestamp='09:28:13'>DROP DATABASE `urls`</ENTRY>
+<ENTRY timestamp='09:28:34'>CREATE SCHEMA `paginasenc`</ENTRY>
+<ENTRY timestamp='09:30:23'>CREATE TABLE `paginasenc`.`encontradas` (&#x0A;  `enlace` VARCHAR(100) NULL,&#x0A;  `titulo` VARCHAR(100) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='09:31:44'>SELECT * FROM paginasenc.encontradas</ENTRY>
+<ENTRY timestamp='09:32:13'>SELECT * FROM web2.Paginas</ENTRY>
+<ENTRY timestamp='09:37:53'>~</ENTRY>
+<ENTRY timestamp='09:42:34'>~</ENTRY>
+<ENTRY timestamp='09:47:04'>SELECT * FROM paginasenc.encontradas</ENTRY>
+<ENTRY timestamp='09:53:30'>~</ENTRY>
+<ENTRY timestamp='09:53:55'>DROP DATABASE `paginasenc`</ENTRY>
+<ENTRY timestamp='09:54:20'>CREATE SCHEMA `webs`</ENTRY>
+<ENTRY timestamp='09:55:14'>CREATE TABLE `webs`.`Paginas` (&#x0A;  `enlace` VARCHAR(100) NULL,&#x0A;  `titulo` VARCHAR(100) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='09:56:11'>SELECT * FROM webs.Paginas</ENTRY>
+<ENTRY timestamp='09:58:10'>SELECT * FROM web2.Paginas</ENTRY>
+<ENTRY timestamp='09:59:42'>CREATE SCHEMA `web`</ENTRY>
+<ENTRY timestamp='10:00:29'>CREATE TABLE `web`.`Paginas` (&#x0A;  `enlace` VARCHAR(100) NULL,&#x0A;  `titulo` VARCHAR(100) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='10:01:18'>SELECT * FROM web.Paginas</ENTRY>
+<ENTRY timestamp='10:02:46'>SELECT * FROM web2.Paginas</ENTRY>
+<ENTRY timestamp='17:23:36'>SELECT * FROM web2.Paginas</ENTRY>
+<ENTRY timestamp='17:34:53'>~</ENTRY>
+<ENTRY timestamp='17:36:55'>~</ENTRY>
+<ENTRY timestamp='17:38:41'>~</ENTRY>
+<ENTRY timestamp='19:26:43'>SELECT * FROM web2.Paginas</ENTRY>

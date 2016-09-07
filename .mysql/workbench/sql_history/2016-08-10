@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='10:17:23'>CREATE SCHEMA `webs`</ENTRY>
+<ENTRY timestamp='10:20:21'>SELECT url&#x0A;FROM `URLS`.`url`</ENTRY>
+<ENTRY timestamp='10:24:33'>CREATE TABLE `webs`.`pages` (&#x0A;  `enlace` VARCHAR(45) NULL,&#x0A;  `titulo` VARCHAR(45) NULL,&#x0A;  `descripcion` VARCHAR(45) NULL)</ENTRY>
+<ENTRY timestamp='10:25:13'>use table webs</ENTRY>
+<ENTRY timestamp='10:39:31'>SELECT * FROM webs.pages</ENTRY>

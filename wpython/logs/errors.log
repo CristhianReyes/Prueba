@@ -1,0 +1,253 @@
+[Tue Aug 16 19:43:44.480836 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144] mod_wsgi (pid=1055): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 19:43:44.480906 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144] mod_wsgi (pid=1055): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 19:43:44.480937 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144] Traceback (most recent call last):
+[Tue Aug 16 19:43:44.480964 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 19:43:44.481028 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144]     from sitioweb import contacto, ejemplos
+[Tue Aug 16 19:43:44.481048 2016] [wsgi:error] [pid 1055:tid 140196502595328] [client 127.0.0.1:40144] ImportError: No module named sitioweb
+[Tue Aug 16 19:43:44.683401 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146] mod_wsgi (pid=1056): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 19:43:44.683457 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146] mod_wsgi (pid=1056): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 19:43:44.683487 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146] Traceback (most recent call last):
+[Tue Aug 16 19:43:44.683518 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 19:43:44.683636 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146]     from sitioweb import contacto, ejemplos
+[Tue Aug 16 19:43:44.683666 2016] [wsgi:error] [pid 1056:tid 140196469024512] [client 127.0.0.1:40146] ImportError: No module named sitioweb
+[Tue Aug 16 19:43:53.111578 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194] mod_wsgi (pid=1055): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 19:43:53.111619 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194] mod_wsgi (pid=1055): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 19:43:53.111644 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194] Traceback (most recent call last):
+[Tue Aug 16 19:43:53.111669 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 19:43:53.111703 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194]     from sitioweb import contacto, ejemplos
+[Tue Aug 16 19:43:53.111726 2016] [wsgi:error] [pid 1055:tid 140196494202624] [client 127.0.0.1:40194] ImportError: No module named sitioweb
+[Tue Aug 16 20:19:45.335215 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516] mod_wsgi (pid=1056): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 20:19:45.335280 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516] mod_wsgi (pid=1056): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 20:19:45.335308 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516] Traceback (most recent call last):
+[Tue Aug 16 20:19:45.335331 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 20:19:45.335399 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516]     from sitioweb import contactos, ejemplos, formulario
+[Tue Aug 16 20:19:45.335419 2016] [wsgi:error] [pid 1056:tid 140196477417216] [client 127.0.0.1:40516] ImportError: cannot import name contactos
+[Tue Aug 16 20:19:45.559224 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518] mod_wsgi (pid=1055): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 20:19:45.559349 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518] mod_wsgi (pid=1055): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 20:19:45.559373 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518] Traceback (most recent call last):
+[Tue Aug 16 20:19:45.559396 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 20:19:45.559465 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518]     from sitioweb import contactos, ejemplos, formulario
+[Tue Aug 16 20:19:45.559484 2016] [wsgi:error] [pid 1055:tid 140196477417216] [client 127.0.0.1:40518] ImportError: cannot import name contactos
+[Tue Aug 16 20:26:19.105177 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542] mod_wsgi (pid=1055): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 16 20:26:19.105210 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542] mod_wsgi (pid=1055): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 16 20:26:19.105230 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542] Traceback (most recent call last):
+[Tue Aug 16 20:26:19.105248 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 16 20:26:19.105310 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542]     from sitioweb import contactos, ejemplos, formulario
+[Tue Aug 16 20:26:19.105329 2016] [wsgi:error] [pid 1055:tid 140196469024512] [client 127.0.0.1:40542] ImportError: cannot import name contactos
+[Mon Aug 22 23:30:32.744050 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:30:32.759246 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:30:32.759306 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860] Traceback (most recent call last):
+[Mon Aug 22 23:30:32.759509 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:30:32.759645 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:30:32.759681 2016] [wsgi:error] [pid 1045:tid 139931059984128] [client 127.0.0.1:60860] ImportError: No module named sitioweb
+[Mon Aug 22 23:30:33.586030 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:30:33.586075 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:30:33.586094 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878] Traceback (most recent call last):
+[Mon Aug 22 23:30:33.586111 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:30:33.586166 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:30:33.586215 2016] [wsgi:error] [pid 1044:tid 139931051591424] [client 127.0.0.1:60878] ImportError: No module named sitioweb
+[Mon Aug 22 23:36:57.244076 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:36:57.244113 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:36:57.244134 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964] Traceback (most recent call last):
+[Mon Aug 22 23:36:57.244152 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:36:57.244180 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:36:57.244198 2016] [wsgi:error] [pid 1044:tid 139931059984128] [client 127.0.0.1:34964] ImportError: No module named sitioweb
+[Mon Aug 22 23:36:57.662228 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:36:57.662260 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:36:57.662331 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968] Traceback (most recent call last):
+[Mon Aug 22 23:36:57.662356 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:36:57.662385 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:36:57.662402 2016] [wsgi:error] [pid 1045:tid 139931051591424] [client 127.0.0.1:34968] ImportError: No module named sitioweb
+[Mon Aug 22 23:43:18.167315 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:43:18.167386 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:43:18.167414 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256] Traceback (most recent call last):
+[Mon Aug 22 23:43:18.167434 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:43:18.167463 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:43:18.167481 2016] [wsgi:error] [pid 1044:tid 139930974025472] [client 127.0.0.1:37256] ImportError: No module named sitioweb
+[Mon Aug 22 23:43:18.544797 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:43:18.544850 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:43:18.544885 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260] Traceback (most recent call last):
+[Mon Aug 22 23:43:18.544913 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:43:18.544953 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:43:18.544992 2016] [wsgi:error] [pid 1045:tid 139930923669248] [client 127.0.0.1:37260] ImportError: No module named sitioweb
+[Mon Aug 22 23:43:24.081834 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:43:24.081868 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:43:24.081886 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298] Traceback (most recent call last):
+[Mon Aug 22 23:43:24.081905 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:43:24.081931 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:43:24.081948 2016] [wsgi:error] [pid 1045:tid 139930915276544] [client 127.0.0.1:37298] ImportError: No module named sitioweb
+[Mon Aug 22 23:45:42.610764 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:45:42.610800 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:45:42.610820 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764] Traceback (most recent call last):
+[Mon Aug 22 23:45:42.610840 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:45:42.610867 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:45:42.610884 2016] [wsgi:error] [pid 1044:tid 139930965632768] [client 127.0.0.1:37764] ImportError: No module named sitioweb
+[Mon Aug 22 23:47:45.513397 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:47:45.513433 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:47:45.513454 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002] Traceback (most recent call last):
+[Mon Aug 22 23:47:45.513474 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:47:45.513499 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:47:45.513517 2016] [wsgi:error] [pid 1045:tid 139930906883840] [client 127.0.0.1:38002] ImportError: No module named sitioweb
+[Mon Aug 22 23:47:45.774709 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:47:45.774743 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:47:45.774763 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006] Traceback (most recent call last):
+[Mon Aug 22 23:47:45.774781 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:47:45.774816 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:47:45.774834 2016] [wsgi:error] [pid 1044:tid 139930957240064] [client 127.0.0.1:38006] ImportError: No module named sitioweb
+[Mon Aug 22 23:58:54.771420 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238] mod_wsgi (pid=1044): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:58:54.771455 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238] mod_wsgi (pid=1044): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:58:54.771475 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238] Traceback (most recent call last):
+[Mon Aug 22 23:58:54.771495 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:58:54.771520 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:58:54.771538 2016] [wsgi:error] [pid 1044:tid 139930948847360] [client 127.0.0.1:39238] ImportError: No module named sitioweb
+[Mon Aug 22 23:58:54.959769 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240] mod_wsgi (pid=1045): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Mon Aug 22 23:58:54.959804 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240] mod_wsgi (pid=1045): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Mon Aug 22 23:58:54.959823 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240] Traceback (most recent call last):
+[Mon Aug 22 23:58:54.959842 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Mon Aug 22 23:58:54.959868 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240]     from sitioweb import contacto, ejemplos, formulario
+[Mon Aug 22 23:58:54.959886 2016] [wsgi:error] [pid 1045:tid 139930898491136] [client 127.0.0.1:39240] ImportError: No module named sitioweb
+[Tue Aug 23 17:19:23.057146 2016] [wsgi:error] [pid 1091:tid 139891122419456] [client 127.0.0.1:32804] Target WSGI script not found or unable to stat: /home/cristhian/wpython/app
+[Tue Aug 23 17:19:23.319602 2016] [wsgi:error] [pid 1091:tid 139891130812160] [client 127.0.0.1:32804] Target WSGI script not found or unable to stat: /home/cristhian/wpython/app
+[Tue Aug 23 17:19:36.280171 2016] [wsgi:error] [pid 1091:tid 139891044251392] [client 127.0.0.1:32806] Target WSGI script not found or unable to stat: /home/cristhian/wpython/app
+[Tue Aug 23 17:20:48.877080 2016] [wsgi:error] [pid 1090:tid 139891122419456] [client 127.0.0.1:32808] Target WSGI script not found or unable to stat: /home/cristhian/wpython/app
+[Tue Aug 23 17:20:55.053861 2016] [wsgi:error] [pid 1091:tid 139891035858688] [client 127.0.0.1:32810] Target WSGI script not found or unable to stat: /home/cristhian/wpython/app
+[Tue Aug 23 17:22:34.664837 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812] mod_wsgi (pid=1090): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module.
+[Tue Aug 23 17:22:34.664878 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812] mod_wsgi (pid=1090): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'.
+[Tue Aug 23 17:22:34.664906 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812] Traceback (most recent call last):
+[Tue Aug 23 17:22:34.664933 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>
+[Tue Aug 23 17:22:34.665013 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812]     from sitioweb import contacto, ejemplos, formulario
+[Tue Aug 23 17:22:34.665056 2016] [wsgi:error] [pid 1090:tid 139891130812160] [client 127.0.0.1:32812] ImportError: No module named sitioweb
+[Tue Aug 23 17:29:24.314069 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830] mod_wsgi (pid=2837): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314124 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314146 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830]   File "/home/cristhian/wpython/app/controller.py", line 22, in application, referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314205 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830]     output = formulario.recibe(environ), referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314217 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 47, in recibe, referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314261 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830]     dato4 = str(fila[3]), referer: http://python-web/formulario
+[Tue Aug 23 17:29:24.314280 2016] [wsgi:error] [pid 2837:tid 139891002287872] [client 127.0.0.1:32830] IndexError: tuple index out of range, referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.052942 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834] mod_wsgi (pid=2837): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053008 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053036 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834]   File "/home/cristhian/wpython/app/controller.py", line 22, in application, referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053075 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834]     output = formulario.recibe(environ), referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053089 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 47, in recibe, referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053187 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834]     #  dato4 = str(fila[3]), referer: http://python-web/formulario
+[Tue Aug 23 17:32:35.053215 2016] [wsgi:error] [pid 2837:tid 139890993895168] [client 127.0.0.1:32834] IndexError: tuple index out of range, referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.373960 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438] mod_wsgi (pid=2837): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374023 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374050 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438]   File "/home/cristhian/wpython/app/controller.py", line 22, in application, referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374086 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438]     output = formulario.recibe(environ), referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374100 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 47, in recibe, referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374206 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438]     #  dato4 = str(fila[3]), referer: http://python-web/formulario
+[Tue Aug 23 17:39:49.374231 2016] [wsgi:error] [pid 2837:tid 139891019073280] [client 127.0.0.1:33438] IndexError: tuple index out of range, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.516726 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442] mod_wsgi (pid=3135): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.516789 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442] mod_wsgi (pid=3135): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.516818 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.516844 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.517004 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.517091 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.517104 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.517112 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:40:33.517118 2016] [wsgi:error] [pid 3135:tid 139891019073280] [client 127.0.0.1:33442] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.981208 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444] mod_wsgi (pid=3225): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.981256 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444] mod_wsgi (pid=3225): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.981277 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.981297 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.985087 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.985328 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.985437 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.985443 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:40:56.985447 2016] [wsgi:error] [pid 3225:tid 139891010680576] [client 127.0.0.1:33444] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128446 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448] mod_wsgi (pid=3428): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128563 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448] mod_wsgi (pid=3428): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128594 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128616 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128682 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128727 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128732 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128736 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:42:44.128739 2016] [wsgi:error] [pid 3428:tid 139891010680576] [client 127.0.0.1:33448] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.380226 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450] mod_wsgi (pid=3551): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.381656 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450] mod_wsgi (pid=3551): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.381841 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.381938 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.382080 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.382164 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.382179 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.382189 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:45:02.382196 2016] [wsgi:error] [pid 3551:tid 139891010680576] [client 127.0.0.1:33450] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.630179 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456] mod_wsgi (pid=3648): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636056 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456] mod_wsgi (pid=3648): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636228 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636294 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636403 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636471 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636482 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636489 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:45:44.636495 2016] [wsgi:error] [pid 3648:tid 139891019073280] [client 127.0.0.1:33456] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.670849 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458] mod_wsgi (pid=3739): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671051 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458] mod_wsgi (pid=3739): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671141 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671208 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671319 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671442 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671458 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671466 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:46:19.671472 2016] [wsgi:error] [pid 3739:tid 139891010680576] [client 127.0.0.1:33458] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.363415 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464] mod_wsgi (pid=4013): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370467 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464] mod_wsgi (pid=4013): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370616 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370680 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370800 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370872 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370882 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370889 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:48:12.370895 2016] [wsgi:error] [pid 4013:tid 139891010680576] [client 127.0.0.1:33464] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.104017 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466] mod_wsgi (pid=4107): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.106793 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466] mod_wsgi (pid=4107): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.106915 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.106966 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.107052 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.107101 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.107108 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.107112 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:48:43.107115 2016] [wsgi:error] [pid 4107:tid 139891010680576] [client 127.0.0.1:33466] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533532 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468] mod_wsgi (pid=4301): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533722 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533783 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468]   File "/home/cristhian/wpython/app/controller.py", line 22, in application, referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533880 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468]     output = formulario.recibe(environ), referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533901 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 44, in recibe, referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533956 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468]     dato1 = str(fila['enlace']), referer: http://python-web/formulario
+[Tue Aug 23 17:51:07.533988 2016] [wsgi:error] [pid 4301:tid 139891010680576] [client 127.0.0.1:33468] TypeError: tuple indices must be integers, not str, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.755509 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470] mod_wsgi (pid=4413): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.756838 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470] mod_wsgi (pid=4413): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.756943 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.756993 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.757075 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.757126 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 46, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.757133 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470]     dato3 = str(fila[2]), referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.757137 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470]                        ^, referer: http://python-web/formulario
+[Tue Aug 23 17:53:21.757141 2016] [wsgi:error] [pid 4413:tid 139891010680576] [client 127.0.0.1:33470] IndentationError: unindent does not match any outer indentation level, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.820535 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474] mod_wsgi (pid=4596): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.822954 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474] mod_wsgi (pid=4596): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823068 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823120 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823237 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823299 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 40, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823306 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474]     query="SELECT enlace, titulo, descripcion FROM Paginas;, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823310 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474]                                                           ^, referer: http://python-web/formulario
+[Tue Aug 23 17:54:47.823314 2016] [wsgi:error] [pid 4596:tid 139891010680576] [client 127.0.0.1:33474] SyntaxError: EOL while scanning string literal, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.247747 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476] mod_wsgi (pid=4697): Target WSGI script '/home/cristhian/wpython/app/controller.py' cannot be loaded as Python module., referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.251983 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476] mod_wsgi (pid=4697): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252137 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252209 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476]   File "/home/cristhian/wpython/app/controller.py", line 6, in <module>, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252332 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476]     from sitioweb import contacto, ejemplos, formulario, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252421 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 40, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252435 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476]     query="SELECT enlace, titulo, descripcion FROM Paginas;, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252443 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476]                                                           ^, referer: http://python-web/formulario
+[Tue Aug 23 17:55:16.252451 2016] [wsgi:error] [pid 4697:tid 139891019073280] [client 127.0.0.1:33476] SyntaxError: EOL while scanning string literal, referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531295 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478] mod_wsgi (pid=4786): Exception occurred processing WSGI script '/home/cristhian/wpython/app/controller.py'., referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531466 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478] Traceback (most recent call last):, referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531525 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478]   File "/home/cristhian/wpython/app/controller.py", line 22, in application, referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531617 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478]     output = formulario.recibe(environ), referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531639 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478]   File "/home/cristhian/wpython/app/sitioweb/formulario.py", line 61, in recibe, referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531737 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478]     <td>""</td>\\, referer: http://python-web/formulario
+[Tue Aug 23 17:55:49.531760 2016] [wsgi:error] [pid 4786:tid 139891010680576] [client 127.0.0.1:33478] TypeError: bad operand type for unary +: 'str', referer: http://python-web/formulario

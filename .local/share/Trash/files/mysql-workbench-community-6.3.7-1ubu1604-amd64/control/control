@@ -1,0 +1,17 @@
+Package: mysql-workbench-community
+Version: 6.3.7-1ubu1604
+Architecture: amd64
+Maintainer: MySQL Workbench team <workbench@sun.com>
+Installed-Size: 138376
+Depends: libatkmm-1.6-1v5 (>= 2.24.0), libc6 (>= 2.14), libcairo2 (>= 1.14.0), libcairomm-1.0-1v5 (>= 1.12.0), libcurl3 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.35.9), libglibmm-2.4-1v5 (>= 2.46.0), libgnome-keyring0 (>= 2.22.2), libgtk2.0-0 (>= 2.24.0), libgtkmm-2.4-1v5 (>= 1:2.24.0), libncurses5 (>= 6), libodbc1 (>= 2.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangomm-1.4-1v5 (>= 2.38.0), libpcre3, libpcrecpp0v5 (>= 7.7), libpng12-0 (>= 1.2.13-4), libpython2.7 (>= 2.7), libsigc++-2.0-0v5 (>= 2.6.1), libsqlite3-0 (>= 3.6.0), libstdc++6 (>= 5.2), libtinyxml2.6.2v5, libuuid1 (>= 2.16), libx11-6, libxml2 (>= 2.7.4), libzip4 (>= 0.10), odbcinst1debian2 (>= 2.3.1), zlib1g (>= 1:1.2.0), python-paramiko (>= 1.15.1)
+Suggests: gnome-keyring
+Replaces: mysql-workbench, mysql-workbench-data, mysql-workbench-gpl, mysql-workbench-oss
+Section: utils
+Priority: extra
+Homepage: http://dev.mysql.com/workbench/
+Description: MySQL Workbench
+ MySQL Workbench is development, administration and data modeling tool
+ for MySQL. Besides editing and running SQL queries and scripts, it supports
+ the design of MySQL databases through a EER diagram, which is then used to
+ generate SQL scripts. Workbench also supports migration from many RDBMS
+ products to MySQL.

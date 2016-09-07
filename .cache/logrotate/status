@@ -1,0 +1,18 @@
+logrotate state -- version 2
+"/home/cristhian/.cache/upstart/gpg-agent.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/at-spi2-registryd.log" 2016-8-22-19:37:58
+"/home/cristhian/.cache/upstart/update-notifier-crash-_var_crash__usr_lib_unity-settings-daemon_unity-settings-daemon.108.crash.log" 2016-8-31-15:39:50
+"/home/cristhian/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_mysql-workbench-bin.1000.crash.log" 2016-8-31-15:39:50
+"/home/cristhian/.cache/upstart/unity-settings-daemon.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/window-stack-bridge.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/update-notifier-release.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/gnome-keyring-ssh.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/upstart-event-bridge.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/hud.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/bamfdaemon.log" 2016-8-10-10:12:15
+"/home/cristhian/.cache/upstart/ssh-agent.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/indicator-sound.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/dbus.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/unity7.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/unity-panel-service.log" 2016-9-6-15:28:47
+"/home/cristhian/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_update-manager.1000.crash.log" 2016-8-22-19:37:58
